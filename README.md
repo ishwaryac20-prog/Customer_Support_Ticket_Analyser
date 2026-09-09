@@ -2,53 +2,59 @@
 
 ## 📌 Project Overview
 
-This project is a Python-based Customer Support Ticket Analysis System that stores, cleans, analyses, and extracts insights from customer support tickets.
+The **Customer Support Ticket Analyser** is a Python-based project that stores, cleans, and analyses customer support ticket data to identify useful patterns and insights.
+
+## 🎯 Problem Statement
+
+Customer support teams handle multiple tickets with different issues and priorities. Analysing this information helps identify common problems, customer feedback, and areas for improving support quality.
 
 ## 🎯 Objectives
 
-- Store and manage customer support ticket data
-- Add new tickets with validation
-- Clean issue descriptions using Python string operations
-- Analyse keywords in customer issues
+- Store and manage customer support tickets
+- Add new tickets with priority validation
+- Clean and standardise issue descriptions
+- Analyse important keywords in customer feedback
 - Analyse ticket priority distribution
-- Identify the ticket with the longest issue description
-- Extract unique words from ticket descriptions
-- Generate useful insights from the ticket data
+- Identify the longest issue description
+- Extract unique words from the tickets
 
 ## 🛠️ Technologies Used
 
 - Python
 - Lists
 - Dictionaries
+- Sets
 - Functions
 - Loops
 - Conditional Statements
 - String Operations
-- Sets
 
 ## 🔍 Key Analysis
 
-The project analyses the following keywords:
+The project performs:
 
-- `poor`
-- `good`
-- `slow`
-- `excellent`
+- **Data Entry** – Stores initial tickets and allows new tickets to be added.
+- **Data Cleaning** – Removes punctuation, extra spaces, and standardises text.
+- **Keyword Analysis** – Counts tickets containing `poor`, `good`, `slow`, and `excellent`.
+- **Priority Analysis** – Analyses High, Medium, and Low priority tickets.
+- **Longest Issue Analysis** – Identifies the ticket with the longest issue description.
+- **Unique Word Analysis** – Extracts and sorts unique words from issue descriptions.
 
-It also performs:
+## 📊 Final Summary & Insights
 
-- Priority analysis
-- Longest issue description analysis
-- Unique word extraction
-- Ticket sorting and structured output
+The analysis shows a mix of positive, negative, and neutral customer feedback.
+
+- **Good** and **excellent** indicate positive support experiences.
+- **Poor** and **slow** highlight areas that may need improvement.
+- Priority analysis helps identify the urgency of customer issues.
+- Data cleaning makes the feedback consistent and easier to analyse.
+- Unique word analysis provides an overview of the vocabulary used by customers.
+
+Overall, the project demonstrates how Python fundamentals can be used to analyse customer support data and identify opportunities to improve **service quality and customer satisfaction**.
 
 ## 📂 Project File
 
-- `Customer_Support_Data_Analysis.ipynb`
-
-## 💡 Key Insights
-
-The analysis helps identify common customer issues, understand ticket priority distribution, recognise positive and negative service-related feedback, and highlight areas for customer support improvement.
+- `Customer_Support_Ticket_Analysis_Python.ipynb` – Complete Python analysis notebook
 
 ## 👩‍💻 Author
 
